@@ -1,0 +1,63 @@
+
+.home{
+    background-image: url("../images/Home.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #333;
+   height: 100vh;
+  }
+  
+  .navbar{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 71px;
+  }
+  .logo img{
+    height: 24px;
+    margin-right: 4px;
+  }
+  .logo{
+    font-size: 12px;
+  text-transform:capitalize;
+  }
+  .join-button{
+    background: #ffdf20;
+    color: black;
+    font-size: 10px;
+    font-weight: 300;
+    font-family: helvetica;
+    padding: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 86px;
+  }
+  .join-button:hover{
+    background-color: rgb(194, 194, 3);
+  }
+  .main h3{
+    font-size: 45px;
+      font-style: italic;
+  }
+  .main h3 b{
+    font-size: 45px;
+      font-style: italic;
+  }
+  .main{
+    display: flex
+  ;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 100%;
+  }
+  
+  .home{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+  
+    flex-direction: column;
+  }

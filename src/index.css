@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import "tailwindcss";
+*{
+ 
+  font-family: "Anton" , Helvetica;
+  font-weight: 400;
+  font-style: normal;
+}
+h1{
+  color: #ffdf20;
+  
+}
+b{
+  color: #ffdf20;
+}
